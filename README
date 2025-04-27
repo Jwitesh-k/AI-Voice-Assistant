@@ -1,54 +1,75 @@
-# AI Voice Assistant
+# 🎙️ AI Voice Assistant
 
-A voice-based AI assistant that uses OpenAI's GPT model for natural conversations. Built with Python and Streamlit.
+A **voice-based AI assistant** that uses **OpenAI's GPT** model for natural, human-like conversations.  
+Built with **Python** and **Streamlit** for a smooth user experience.
 
-## Features
-- Voice input through microphone
-- Text-to-speech response using gTTS
-- Real-time transcription using Google Speech Recognition
-- Conversation history tracking in Streamlit
-- Error handling and API key validation
-- User-friendly interface with clear instructions
+---
 
-## Prerequisites
-- Python 3.8 or higher
-- OpenAI API key
-- Working microphone
-- Internet connection
+## ✨ Features
+- 🎤 Voice input through microphone
+- 🗣️ Text-to-speech (TTS) responses using **gTTS**
+- ✍️ Real-time transcription with **Google Speech Recognition**
+- 🧠 Smart conversation powered by **OpenAI GPT**
+- 🕓 Conversation history tracking (session-based)
+- 🛡️ Robust error handling and API key validation
+- 🎯 Simple and user-friendly Streamlit interface with clear instructions
 
-## Installation
+---
 
-1. Clone the repository:
+## 🔧 Prerequisites
+- Python **3.8** or higher
+- An **OpenAI API Key**
+- Working **Microphone**
+- Stable **Internet connection**
+
+---
+
+## 🚀 Installation
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Jwitesh-k/AI-Voice-Assistant.git
-   cd AI-voice-assistant
+   cd AI-Voice-Assistant
    ```
 
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Set up OpenAI API key:
-   - Create a `.env` file in the project root
-   - Add your OpenAI API key:
+3. **Set up your OpenAI API Key:**
+   - Create a `.env` file in the project root.
+   - Add the following line inside `.env`:
      ```
      OPENAI_API_KEY=your_api_key_here
      ```
 
-4. Run the application:
+4. **Run the application:**
    ```bash
    streamlit run voice_assistant.py
    ```
 
-## Usage
-1. Click the "Start Speaking" button
-2. Speak clearly into your microphone
-3. Wait for the AI's response
-4. The response will be both displayed and spoken
-5. View your conversation history below
+---
 
-## Troubleshooting
-- If the microphone isn't working, check your system's audio input settings
-- If you get an API error, verify your OpenAI API key in the `.env` file
-- Run `python test_api.py` to verify your API key setup
+## 🎯 Usage
+
+1. Click the **"🎤 Start Speaking"** button.
+2. Speak clearly into your microphone.
+3. The app will **transcribe** your speech and **generate** an AI response.
+4. You will **hear** the AI's reply and **see** it on the screen.
+5. Scroll down to view your **conversation history**.
+
+---
+
+## 🛠️ Troubleshooting
+
+- 🎤 **Microphone not working?**
+  - Check your system’s audio input settings.
+- 🔑 **API error?**
+  - Verify your API key is correctly set inside the `.env` file.
+- 🧪 **Test OpenAI API connection:**
+  ```bash
+  python test_api.py
+  ```
+
+---
